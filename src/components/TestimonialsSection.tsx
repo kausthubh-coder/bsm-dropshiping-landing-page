@@ -7,27 +7,30 @@ import AvatarCircles from "@/components/ui/avatar-circles";
 import ShinyButton from "@/components/ui/shiny-button";
 import Confetti from "@/components/ui/confetti";
 import Meteors from "@/components/ui/meteors";
+import thumbnail80k from "@/assets/eighty.jpg";
+import thumbnail42k from "@/assets/42.jpg";
+import thumbnail30k from "@/assets/30.jpg";
 
 const testimonials = [
   {
     name: "Duff",
     title: "How Duff Made Over $80,000 In 30 Days",
     videoSrc: "https://www.youtube.com/embed/rzgaOBDrMv4",
-    thumbnailSrc: "../../public/80.jpg",
+    thumbnailSrc: thumbnail80k,
     avatarUrl: "https://avatar.vercel.sh/duff",
   },
   {
     name: "Chris",
     title: "How Chris Made $42,000 In 30 Days",
     videoSrc: "https://www.youtube.com/embed/2vY9OFYj2-8",
-    thumbnailSrc: "../../public/42.jpg",
+    thumbnailSrc: thumbnail42k,
     avatarUrl: "https://avatar.vercel.sh/chris",
   },
   {
     name: "Reese",
     title: "How Reese Made $30,000 In His First Month",
     videoSrc: "https://www.youtube.com/embed/2KhwnZziJig",
-    thumbnailSrc: "../../public/30.jpg",
+    thumbnailSrc: thumbnail30k,
     avatarUrl: "https://avatar.vercel.sh/reese",
   },
 ];

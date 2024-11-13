@@ -7,42 +7,51 @@ import BlurFade from "@/components/ui/blur-fade";
 import type { ConfettiRef } from "@/components/ui/confetti";
 import ShinyButton from "@/components/ui/shiny-button";
 import ShineBorder from "@/components/ui/shine-border";
+import test1 from "@/assets/test/test.avif";
+import test2 from "@/assets/test/test2.avif";
+import test3 from "@/assets/test/test3.avif";
+import test4 from "@/assets/test/test4.avif";
+import test5 from "@/assets/test/test5.avif";
+import test6 from "@/assets/test/test6.avif";
+import test7 from "@/assets/test/test7.avif";
+import test8 from "@/assets/test/test8.avif";
+import test9 from "@/assets/test/test9.avif";
 
 const earningsData = [
   {
-    image: "../../public/test/test1.avif",
+    image: test1,
     description: "First 5-Figure Month: $15,000 in 30 Days",
   },
   {
-    image: "../../public/test/test2.avif",
+    image: test2,
     description: "Consistent Growth: $25,000 Monthly",
   },
   {
-    image: "../../public/test/test3.avif",
+    image: test3,
     description: "Record Breaking: $42,000 in One Month",
   },
   {
-    image: "../../public/test/test4.avif",
+    image: test4,
     description: "Sustained Success: $38,000 Monthly",
   },
   {
-    image: "../../public/test/test5.avif",
+    image: test5,
     description: "New Peak: $45,000 Achievement",
   },
   {
-    image: "../../public/test/test6.avif",
+    image: test6,
     description: "Major Milestone: $52,000 Month",
   },
   {
-    image: "../../public/test/test7.avif",
+    image: test7,
     description: "Consistent Results: $48,000",
   },
   {
-    image: "../../public/test/test8.avif",
+    image: test8,
     description: "Best Month: $56,000 Earned",
   },
   {
-    image: "../../public/test/test9.avif",
+    image: test9,
     description: "New Record: $60,000 Month",
   }
 ];

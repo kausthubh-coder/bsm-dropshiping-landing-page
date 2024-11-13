@@ -1,6 +1,7 @@
 import HeroVideoDialog from "@/components/ui/hero-video-dialog";
 import AnimatedShinyText from "@/components/ui/animated-shiny-text";
 import { RainbowButton } from "@/components/ui/rainbow-button";
+import heroThumbnail from "@/assets/hero-thumbnail.png";
 
 export function HeroSection() {
   return (
@@ -32,14 +33,14 @@ export function HeroSection() {
                 className="dark:hidden block"
                 animationStyle="from-center"
                 videoSrc="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-                thumbnailSrc="../../public/hero thubnail.png"
+                thumbnailSrc={heroThumbnail}
                 thumbnailAlt="Coaching Program Introduction"
               />
               <HeroVideoDialog
                 className="hidden dark:block"
                 animationStyle="from-center"
                 videoSrc="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-                thumbnailSrc="../../public/hero thubnail.png"
+                thumbnailSrc={heroThumbnail}
                 thumbnailAlt="Coaching Program Introduction"
               />
             </div>
